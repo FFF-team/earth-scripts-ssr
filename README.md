@@ -3,7 +3,7 @@ react v15.x 使用`earth-scripts@0.x`版本
 
 react v16.x 使用`earth-scripts@1.x`版本
 
-react-ssr 使用`earth-scripts@2.x`版本
+react-ssr 使用`earth-scripts-ssr@x`版本
 
 ### config
 
