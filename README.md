@@ -221,13 +221,13 @@ module.exports = {
 
 * development
 
-  `earth-scripts start` 启动client端
+  `earth-scripts-ssr start` 启动client端
   
        执行如下步骤：
            * 打包编译client端代码、启动webpackDevServer(CLIENT_PORT)、启动mockserver
            * 生成asset-manifest.json react-loadable.json
 
-  `earth-scripts ssr-start --entry=pathToEntry.js` 启动server端
+  `earth-scripts-ssr ssr-start --entry=pathToEntry.js` 启动server端
   
       执行如下步骤：
          * 清空build/server下原有内容
@@ -237,7 +237,7 @@ module.exports = {
 
 * production
 
-  `earth-scripts ssr-deploy --entry=pathToEntry.js --env=production`
+  `earth-scripts-ssr ssr-deploy --entry=pathToEntry.js --env=production`
   
       执行如下步骤：
            * 清空build/server下原有内容
@@ -247,7 +247,7 @@ module.exports = {
 
 *如果不加entry参数，则不会启动server，需要自己手动启动*
   
-  `earth-scripts ssr-start && node pathToEntry.js`
+  `earth-scripts-ssr ssr-start && node pathToEntry.js`
 
 
 ###### build目录结构

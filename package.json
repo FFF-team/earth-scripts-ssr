@@ -1,18 +1,18 @@
 {
-  "name": "earth-scripts",
+  "name": "earth-scripts-ssr",
   "version": "0.2.1",
   "description": "earth for node script",
   "bin": {
-    "earth-scripts": "./index.js"
+    "earth-scripts-ssr": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FFF-team/earth-scripts.git"
+    "url": "git+https://github.com/FFF-team/earth-scripts-ssr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FFF-team/earth-scripts/issues"
+    "url": "https://github.com/FFF-team/earth-scripts-ssr/issues"
   },
   "peerDependencies": {
     "react": ">=15.6.1",
@@ -88,6 +88,6 @@
     "webpack-node-externals": "^1.7.2",
     "whatwg-fetch": "2.0.3"
   },
-  "homepage": "https://github.com/FFF-team/earth-scripts#readme",
+  "homepage": "https://github.com/FFF-team/earth-scripts-ssr#readme",
   "devDependencies": {}
 }

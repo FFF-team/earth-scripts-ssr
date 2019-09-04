@@ -48,7 +48,7 @@ switch (script) {
   }
   default:
     console.log('Unknown script "' + script + '".');
-    console.log('Perhaps you need to update earth-scripts?');
+    console.log('Perhaps you need to update earth-scripts-ssr?');
     console.log(
       'you can call David Feng ! 😜'
     );

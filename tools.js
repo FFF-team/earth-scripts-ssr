@@ -44,14 +44,14 @@ const isSinglePage = () => !fs.existsSync(resolveApp(`src/pages/`));
 
 const clog = {
 
-    prefix: chalk.blue('[earth-scripts] '),
+    prefix: chalk.blue('[earth-scripts-ssr] '),
 
     get ssr () {
-        this.prefix = chalk.blue('[earth-scripts:ssr] ');
+        this.prefix = chalk.blue('[earth-scripts-ssr:ssr] ');
         return clog;
     },
     get client() {
-        this.prefix = chalk.blue('[earth-scripts:client] ');
+        this.prefix = chalk.blue('[earth-scripts-ssr:client] ');
         return clog;
     },
     info: (msg) => {

@@ -43,7 +43,7 @@ if (!checkPagesRequired(paths.allPages)) {
   process.exit(1);
 }
 
-// console.log('earth-scripts')
+// console.log('earth-scripts-ssr')
 
 // Tools like Cloud9 rely on this.
 const DEFAULT_PORT = parseInt(process.env.CLIENT_PORT, 10) || 3000;
